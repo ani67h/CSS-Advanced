@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fgifs%2F60secdocs-school-india-education-jahlnqW7mM0TlxdSKB&psig=AOvVaw1nURuRHVwqwf_f5UubUcCV&ust=1737143956943000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOCq_dWD-4oDFQAAAAAdAAAAABAf);background-size: 1000px; background-attachment: fixed;
+    background-color: black;
+    color: rgb(174, 144, 159);
+    font-family: cursive;
+}
+a{
+    color: rgb(181, 110, 110);
+}
+p::first-letter{
+    font-family: fantasy;
+    font-size: 30px;
+    color: burlywood;
+}
+a:hover{
+    color: brown; 
+} 
+a{
+    text-decoration: none;
+    color: rgb(175, 141, 145);
+}
+#keu-na:hover{
+    color: rgb(113, 146, 155);
+}
