@@ -1,67 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Flexbox Layout</title>
-        <style>
-            .container {
-                display: flex;
-                gap: 10px;
-            }
-    
-            .left {
-                display: flex;
-                flex-direction: column; /* Stack Content 1 and Content 3 */
-                gap: 10px;
-                width: 50%; /* Take half the width */
-            }
-    
-            .right {
-                width: 50%; /* Content 2 takes half the width */
-            }
-    
-            .box {
-                padding: 20px;
-                color: white;
-                font-size: 20px;
-                text-align: center;
-            }
-    
-            .content1 {
-                background: red;
-            }
-    
-            .content2 {
-                background: blue;
-            }
-    
-            .content3 {
-                background: green;
-            }
-        </style>
-    </head>
-    <body>
-    
-        <div class="container">
-            <div class="left">
-                <div class="box content1">Content 1</div>
-                <div class="box content3">Content 3</div>
-            </div>
-            <div class="right box content2">Content 2</div>
-        </div>
-    
-    </body>
-    </html>
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Border</title>
+    <style>
+        .rounded-text {
+            padding: 10px 20px; /* Adds space inside the border */
+            border: 2px solid black; /* Border color and thickness */
+            border-radius: 25px; /* Makes the border rounded */
+            display: inline-block; /* Ensures the border wraps the text properly */
+            font-size: 20px; /* Adjust text size */
+        }
+    </style>
 </head>
 <body>
-    
+
+    <p class="rounded-text">Hello, World!</p>
+
 </body>
 </html>
